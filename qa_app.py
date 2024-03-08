@@ -258,7 +258,7 @@ def main():
         # Check if there are no generated question-answer pairs in the session state
         if 'eval_set' not in st.session_state:
             # Use the generate_eval function to generate question-answer pairs
-            num_eval_questions = 10  # Number of question-answer pairs to generate
+            num_eval_questions = 3  # Number of question-answer pairs to generate
             st.session_state.eval_set = generate_eval(
                 loaded_text, num_eval_questions, 3000)
 
