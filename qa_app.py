@@ -113,7 +113,6 @@ def main():
         padding: 0px 0px;
         text-align: center;
     ">
-        # <p>Made by <a href='https://www.linkedin.com/in/glarunsingh/'>Arun Singh G</a></p>
         <p>Made by Arun Singh G & Thara Ramanathan</a></p>
     </div>
     """
